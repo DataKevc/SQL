@@ -1,2 +1,2 @@
-# SQL
-Useful SQL Stuff
+# SQL-Cheat-Sheet
+Cheat Sheet containing useful SQL queries
