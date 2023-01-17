@@ -1,0 +1,24 @@
+SELECT - used to query a database and retrieve specific data.
+
+Syntax: SELECT column_name(s) FROM table_name;
+WHERE - used to filter the results of a SELECT statement.
+
+Syntax: SELECT column_name(s) FROM table_name WHERE column_name operator value;
+JOIN - used to combine rows from two or more tables based on a related column between them.
+
+Syntax: SELECT column_name(s) FROM table1 JOIN table2 ON table1.column_name = table2.column_name;
+GROUP BY - used to group rows that have the same values in one or more columns.
+
+Syntax: SELECT column_name(s), aggregate_function(column_name) FROM table_name GROUP BY column_name(s);
+HAVING - used to filter the results of a GROUP BY statement.
+
+Syntax: SELECT column_name(s), aggregate_function(column_name) FROM table_name GROUP BY column_name(s) HAVING aggregate_function(column_name) operator value;
+INSERT INTO - used to insert new rows into a table.
+
+Syntax: INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...);
+UPDATE - used to modify existing data in a table.
+
+Syntax: UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE some_column = some_value;
+DELETE - used to delete existing data from a table.
+
+Syntax: DELETE FROM table_name WHERE some_column = some_value;
